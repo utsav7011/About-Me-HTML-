@@ -1,0 +1,216 @@
+<html>
+    <head>
+        <title>about me</title>
+
+        <!--Google Font 1-->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet">
+
+        <!--Google Font 2-->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Potta+One&display=swap" rel="stylesheet">
+        
+        <style>
+
+            #header{
+                background-color:royalblue ;
+                padding: 16px;
+            }
+
+            #navbar{
+                text-align: center;
+                color: white;   
+            }
+
+            #trip_header{
+                padding: 75px;
+                font-size: 25px;
+            }
+
+            #about_header{
+                padding: 75px;
+                font-size: 25px;
+            }
+
+            #contact_header{
+                padding: 75px;
+                font-size: 25px;
+                
+            }
+
+
+            #heading{
+                font-family: 'Potta One', cursive;
+                font-size: 95px;
+                text-align: center;
+            }
+
+            a{
+                color: white;
+            }
+
+            .language-container{
+                margin-left: auto;
+                margin-right: auto;
+                width: 350px;
+                height: 350px;
+                
+            }
+
+            .intro_line{
+                font-size: 30px;
+                font-family: 'Hachi Maru Pop', cursive;
+                text-align: center;
+                
+            }
+            
+
+
+            #footer{
+                font-family: 'Potta One', cursive;
+                text-align: right;
+                font-size: 25px;
+                background-color: black;
+                color: white;
+                padding: 10px;
+            }
+
+            #footer_text2{
+                text-align: center;
+                font-family: monospace;
+            }
+
+            #insta_img{
+                margin-left: 50px;
+            }
+
+            #text_above_footer{
+                font-family: 'Potta One', cursive;
+                font-size: 50px;
+                text-align: center;
+            }
+
+            #form{
+                margin-left:auto;
+                margin-right: auto;
+                width: 700px;
+                background-color: white;
+                border-top: 1px solid #ccc;
+                border-bottom: 5px dashed #66B933;
+
+            }
+
+            .input-box{
+                font-size: 18px;
+                padding: 15px;
+                padding-bottom: 12px;
+                margin-bottom: 36px;
+                width: 100%;
+                border: 0;
+                border-bottom: 1px dashed #66B933;
+            }
+
+            .submit{
+                background-color: #66B933;
+                
+                padding-top: 12px;
+                padding-bottom: 12px;
+                padding-left: 24px;
+                padding-right: 24px;
+                font-size: 18px;
+                color: white;
+                border: 0;
+            }
+
+
+        </style>
+    </head>
+    <body style="margin: 0;">
+
+        <header id="header">
+            
+            <!--Navigation bar -->
+            <nav id="navbar">
+                
+                <span id="about_header"><a href ="about.html" target="_blank">ABOUT</a></span>
+                <span id="trip_header"><a href="index.html" target="_blank">TRIP PLANS</a></span>
+                <span id="contact_header"><a href="contact.html" target="_blank">CONTACT</a></span>
+
+            </nav>
+        </header>
+        
+        <main>
+
+            <p id="heading">
+                CONTACT 
+            </p>
+
+            <br>
+
+            <form id="form" name="contact" method="POST" data-netlify="true">
+                <div class="text-wrapper">
+                    <input class="input-box" 
+                            type="text" 
+                            name="Name"
+                             
+                            placeholder="Enter Name" 
+                            required ><br>
+                </div >
+                
+                <div class="text-wrapper">
+                    <input  class="input-box"
+                            type="email" 
+                            name="email"
+                            
+                            placeholder="Enter email"
+                            required>
+                 </div>
+
+                <div class="text-wrapper" >
+                    <input class="input-box" 
+                            type="text" 
+                            name="Phone_no." 
+                             
+                            placeholder="Enter Phone No."
+                            required><br>
+                </div>
+                
+                <div>
+                    
+                    <center>
+                        <input class ="submit" type="submit" value="submit">
+                    </center>
+                    <br><br><br>
+
+                </div>
+               
+            </form>
+
+            
+
+        </main>
+
+        <br><br><br><br><br><br><br><br><br><br><br><br>
+
+        <center>
+            <span id="text_above_footer">Follow @ :</span>
+        </center>
+        
+        <br><br><br><br>
+        
+        <center><a href="https://www.instagram.com/utsav_7011/"><img  class="insta_img" src="instagram.svg" width="40px" height="40px"> </a> </center><br>
+        <center><a href="https://github.com/utsav7011"><img  class="github_img" src="github.svg" width="40px" height="40px"> </a> </center><br>
+        <center><a href="https://twitter.com/utsav_7011?s=08"><img  class="twitter_img" src="twitter.svg" width="40px" height="40px"> </a> </center><br>
+
+        <br><br><br>
+
+        <footer id="footer">
+            <p id="footer_text2">Copyright-2021</p>
+            <p id="footer_text">By UTSAV</p>
+            
+        </footer>
+
+
+
+    </body>
+</html>
